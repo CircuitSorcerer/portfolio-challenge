@@ -11,74 +11,95 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Josh Nardella Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <script src="./assets/script.js"></script>
 
     <main>
-        <section class="About">
+        <section class="About" id="about">
+            
             <h2>About Me</h2>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod dui vel metus gravida, eget tempor ex lacinia. Proin non est vel odio ullamcorper ultricies nec nec odio. Curabitur rhoncus eros non leo eleifend, id varius odio posuere. Aenean tristique velit eget arcu ullamcorper, in sagittis justo auctor. Sed id sapien id velit elementum sollicitudin id quis odio. Nullam sit amet ante vitae nunc efficitur sodales non non quam. Nullam eu hendrerit odio. Vivamus eleifend tincidunt sem, nec vehicula nunc gravida id. Aenean elementum quam eget tellus porttitor, ut gravida sapien iaculis.
 
-                Donec gravida, justo eget malesuada iaculis, odio nunc fermentum justo, a aliquet augue tortor id erat. Integer ut urna vel libero tincidunt congue in a orci. Pellentesque pulvinar dolor eu tristique ullamcorper. Fusce dapibus velit ut nisi consequat, ut vestibulum tellus varius. Vestibulum id ligula nec mauris lacinia luctus. Duis quis augue sem. Fusce et elit sit amet tortor bibendum vehicula nec ac risus. Vestibulum at metus tincidunt, tristique erat et, suscipit odio. Vivamus consequat mi quis tristique viverra. Proin tempus risus a ex euismod, eu dignissim neque interdum.
+            Donec gravida, justo eget malesuada iaculis, odio nunc fermentum justo, a aliquet augue tortor id erat. Integer ut urna vel libero tincidunt congue in a orci. Pellentesque pulvinar dolor eu tristique ullamcorper. Fusce dapibus velit ut nisi consequat, ut vestibulum tellus varius. Vestibulum id ligula nec mauris lacinia luctus. Duis quis augue sem. Fusce et elit sit amet tortor bibendum vehicula nec ac risus. Vestibulum at metus tincidunt, tristique erat et, suscipit odio. Vivamus consequat mi quis tristique viverra. Proin tempus risus a ex euismod, eu dignissim neque interdum.
                 
-                Suspendisse at ex non massa bibendum tristique. Fusce interdum nulla et venenatis aliquam. Curabitur malesuada nisi nec rhoncus iaculis. Nunc a elit quis risus euismod venenatis. Pellentesque euismod tristique lacinia. Suspendisse potenti. Sed in varius nulla. Nullam nec lorem eget turpis ullamcorper interdum."</p>
+            Suspendisse at ex non massa bibendum tristique. Fusce interdum nulla et venenatis aliquam. Curabitur malesuada nisi nec rhoncus iaculis. Nunc a elit quis risus euismod venenatis. Pellentesque euismod tristique lacinia. Suspendisse potenti. Sed in varius nulla. Nullam nec lorem eget turpis ullamcorper interdum."</p>
+            
+            <img src="./assets/pictures/avatar.png" alt="Avatar Picture">
         </section>
 
 
-        <section class="My-Project-Container">
+        <section class="My-Project-Container" id="projects">
             <h2>My Projects</h2>
             <div class="Projects">
-                <div class="Project-Box" id="horiseon">
+                <div class="Project-Box" id="horiseon" tabindex="0">
                     <h3>Horiseon Website</h3>
-                    <img src="./assets/pictures/horiseon.png" alt="Screenshot of Horiseon website">
-                    <p>
-                        Horiseon reached out with an existing website they wanted to make more
-                        user friendly and bring it up to date with accessibility standards
-                        and improve the website flow and function.
-                    </p>
+                    <div>
+                        <div>
+                            <img src="" alt="Screenshot of Horiseon website">
+                        </div>
+                        <div class="textprojects">
+                            <a href="circuitsorcerer.github.io/horiseon-website">To Website</a>
+                            <p>
+                            Horiseon reached out with an existing website they wanted to make more
+                            user friendly and bring it up to date with accessibility standards
+                            and improve the website flow and function.
+                            </p>
+                        </div>
+                    </div>
                 </div> 
-                <div class="Project-Box" id="online-gallery">
+                <div class="Project-Box" id="online-gallery" tabindex="0">
                     <h3>Online Gallery</h3>
-                    <img src="./assets/pictures/horiseon.png" alt="Screenshot of Art Gallery">
+                    <img src="./assets/picturesx.png" alt="Screenshot of Art Gallery">
+                    <a href="">To Website</a>
                     <p>
                         A virtual art gallery showcasing different artworks. Implement interactive 
                         features like zooming, 360-degree views, and art categorization.
                     </p>
                 </div> 
-                <div class="Project-Box" id="file-sharing-site">
+                <div class="Project-Box" id="file-sharing-site" tabindex="0">
                     <h3>DropNShare</h3>
-                    <img src="./assets/pictures/horiseon.png" alt="Screenshot of DropNShare website">
+                    <img src="./assets/pictures/x.png" alt="Screenshot of DropNShare website">
+                    <a href="">To Website</a>
                     <p>
                         A website to allow one off file sharing between parties
                     </p>
                 </div> 
-                <div class="Project-Box" id="diy-build-resource">
+                <div class="Project-Box" id="diy-build-resource" tabindex="0">
                     <h3>Homebuilders Forum</h3>
-                    <img src="./assets/pictures/horiseon.png" alt="Screenshot of Homebuilders Forum website">
+                    <img src="./assets/pictures/x.png" alt="Screenshot of Homebuilders Forum website">
+                    <a href="">To Website</a>
                     <p>
                         A forum website containing resources and advice for
                         DIY home improvements and also social interaction
                         between like-minded individuals.
                     </p>
                 </div> 
-                <div class="Project-Box" id="band-landing-page">
+                <div class="Project-Box" id="band-landing-page" tabindex="0">
                     <h3>The Jaded Dragons Official Website</h3>
-                    <img src="./assets/pictures/horiseon.png" alt="Screenshot of Jaded Dragons website">
+                    <img src="./assets/pictures/x.png" alt="Screenshot of Jaded Dragons website">
+                    <a href="">To Website</a>
                     <p>
                         The Jaded dragons wanted a landing page for people to learn about
                         the band and for them to post updates like tour dates.
                     </p>
                 </div> 
             </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Developer</h2>
+            <p>Phone Number Coming Soon</p>
+            <p>Email Coming Soon</p>
         </section>
 
     </main>
